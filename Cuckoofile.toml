@@ -1,0 +1,11 @@
+output = "Tests/Generated/GeneratedMocks.swift"
+
+[modules.CharKataReader]
+output = "CharKataReaderTests/Generated/GeneratedMocks+CharKataReader.swift"
+# Standard imports added to the generated file(s).
+imports = ["Foundation"]
+# @testable imports if needed.
+testableImports = ["CharKataReader"]
+sources = [
+    "CharKataReader/*.swift",
+]

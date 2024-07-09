@@ -14,6 +14,12 @@
 		5724B86B2C3DC9C900D7F29A /* CharKataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B86A2C3DC9C900D7F29A /* CharKataReaderTests.swift */; };
 		5724B8752C3DC9C900D7F29A /* CharKataReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B8742C3DC9C900D7F29A /* CharKataReaderUITests.swift */; };
 		5724B8772C3DC9C900D7F29A /* CharKataReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B8762C3DC9C900D7F29A /* CharKataReaderUITestsLaunchTests.swift */; };
+		5724B8852C3DCC2200D7F29A /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B8842C3DCC2200D7F29A /* Source.swift */; };
+		5724B8872C3DCC4B00D7F29A /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B8862C3DCC4B00D7F29A /* Destination.swift */; };
+		5724B8892C3DD16100D7F29A /* GeneratedMocks+CharKataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B8882C3DD16100D7F29A /* GeneratedMocks+CharKataReader.swift */; };
+		5724B88B2C3DD17600D7F29A /* Copier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724B88A2C3DD17600D7F29A /* Copier.swift */; };
+		6675A33FCD4433658D0BA047 /* Pods_CharKataReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3177A340581BB1DB8CB562 /* Pods_CharKataReader.framework */; };
+		ECA5AA53EAF2AEF6BBD028EA /* Pods_CharKataReader_CharKataReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1258D81F18FCC737705F42E /* Pods_CharKataReader_CharKataReaderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3177A340581BB1DB8CB562 /* Pods_CharKataReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharKataReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5724B8562C3DC9C800D7F29A /* CharKataReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharKataReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5724B8592C3DC9C800D7F29A /* CharKataReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharKataReaderApp.swift; sourceTree = "<group>"; };
 		5724B85B2C3DC9C800D7F29A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,15 @@
 		5724B8702C3DC9C900D7F29A /* CharKataReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharKataReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5724B8742C3DC9C900D7F29A /* CharKataReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharKataReaderUITests.swift; sourceTree = "<group>"; };
 		5724B8762C3DC9C900D7F29A /* CharKataReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharKataReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5724B8842C3DCC2200D7F29A /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		5724B8862C3DCC4B00D7F29A /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		5724B8882C3DD16100D7F29A /* GeneratedMocks+CharKataReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GeneratedMocks+CharKataReader.swift"; path = "Generated/GeneratedMocks+CharKataReader.swift"; sourceTree = "<group>"; };
+		5724B88A2C3DD17600D7F29A /* Copier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copier.swift; sourceTree = "<group>"; };
+		6226A468E72CB8A588AEDEFE /* Pods-CharKataReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharKataReader.release.xcconfig"; path = "Target Support Files/Pods-CharKataReader/Pods-CharKataReader.release.xcconfig"; sourceTree = "<group>"; };
+		6A6FDCA23F44C6C8B895F1F7 /* Pods-CharKataReader-CharKataReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharKataReader-CharKataReaderTests.release.xcconfig"; path = "Target Support Files/Pods-CharKataReader-CharKataReaderTests/Pods-CharKataReader-CharKataReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EC348D6195364001C8AC2CF /* Pods-CharKataReader-CharKataReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharKataReader-CharKataReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-CharKataReader-CharKataReaderTests/Pods-CharKataReader-CharKataReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B20E3F48FBFD9C14C4B31310 /* Pods-CharKataReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharKataReader.debug.xcconfig"; path = "Target Support Files/Pods-CharKataReader/Pods-CharKataReader.debug.xcconfig"; sourceTree = "<group>"; };
+		C1258D81F18FCC737705F42E /* Pods_CharKataReader_CharKataReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharKataReader_CharKataReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6675A33FCD4433658D0BA047 /* Pods_CharKataReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA5AA53EAF2AEF6BBD028EA /* Pods_CharKataReader_CharKataReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +89,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FD72B9AFA515CF9926835B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F3177A340581BB1DB8CB562 /* Pods_CharKataReader.framework */,
+				C1258D81F18FCC737705F42E /* Pods_CharKataReader_CharKataReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3518A29A59A8782E807CC170 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B20E3F48FBFD9C14C4B31310 /* Pods-CharKataReader.debug.xcconfig */,
+				6226A468E72CB8A588AEDEFE /* Pods-CharKataReader.release.xcconfig */,
+				9EC348D6195364001C8AC2CF /* Pods-CharKataReader-CharKataReaderTests.debug.xcconfig */,
+				6A6FDCA23F44C6C8B895F1F7 /* Pods-CharKataReader-CharKataReaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5724B84D2C3DC9C800D7F29A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +116,8 @@
 				5724B8692C3DC9C900D7F29A /* CharKataReaderTests */,
 				5724B8732C3DC9C900D7F29A /* CharKataReaderUITests */,
 				5724B8572C3DC9C800D7F29A /* Products */,
+				3518A29A59A8782E807CC170 /* Pods */,
+				1FD72B9AFA515CF9926835B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +138,9 @@
 				5724B85B2C3DC9C800D7F29A /* ContentView.swift */,
 				5724B85D2C3DC9C900D7F29A /* Assets.xcassets */,
 				5724B85F2C3DC9C900D7F29A /* Preview Content */,
+				5724B8842C3DCC2200D7F29A /* Source.swift */,
+				5724B8862C3DCC4B00D7F29A /* Destination.swift */,
+				5724B88A2C3DD17600D7F29A /* Copier.swift */,
 			);
 			path = CharKataReader;
 			sourceTree = "<group>";
@@ -113,6 +156,7 @@
 		5724B8692C3DC9C900D7F29A /* CharKataReaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				5724B8882C3DD16100D7F29A /* GeneratedMocks+CharKataReader.swift */,
 				5724B86A2C3DC9C900D7F29A /* CharKataReaderTests.swift */,
 			);
 			path = CharKataReaderTests;
@@ -134,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5724B87A2C3DC9C900D7F29A /* Build configuration list for PBXNativeTarget "CharKataReader" */;
 			buildPhases = (
+				7D3BF93890AE4A8C7A082B05 /* [CP] Check Pods Manifest.lock */,
 				5724B8522C3DC9C800D7F29A /* Sources */,
 				5724B8532C3DC9C800D7F29A /* Frameworks */,
 				5724B8542C3DC9C800D7F29A /* Resources */,
@@ -151,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5724B87D2C3DC9C900D7F29A /* Build configuration list for PBXNativeTarget "CharKataReaderTests" */;
 			buildPhases = (
+				2DE52504B3AE5C8692013C91 /* [CP] Check Pods Manifest.lock */,
+				5724B8832C3DCA9500D7F29A /* ShellScript */,
 				5724B8622C3DC9C900D7F29A /* Sources */,
 				5724B8632C3DC9C900D7F29A /* Frameworks */,
 				5724B8642C3DC9C900D7F29A /* Resources */,
+				D21D18649A50D96AB3103997 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +300,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE52504B3AE5C8692013C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharKataReader-CharKataReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5724B8832C3DCA9500D7F29A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Skip for indexing\nif [ $ACTION == \"indexbuild\" ]; then\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  exit 0\nfi\n\n\"${PODS_ROOT}/Cuckoo/run\"\n";
+		};
+		7D3BF93890AE4A8C7A082B05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharKataReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21D18649A50D96AB3103997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CharKataReader-CharKataReaderTests/Pods-CharKataReader-CharKataReaderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CharKataReader-CharKataReaderTests/Pods-CharKataReader-CharKataReaderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CharKataReader-CharKataReaderTests/Pods-CharKataReader-CharKataReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5724B8522C3DC9C800D7F29A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5724B88B2C3DD17600D7F29A /* Copier.swift in Sources */,
 				5724B85C2C3DC9C800D7F29A /* ContentView.swift in Sources */,
 				5724B85A2C3DC9C800D7F29A /* CharKataReaderApp.swift in Sources */,
+				5724B8872C3DCC4B00D7F29A /* Destination.swift in Sources */,
+				5724B8852C3DCC2200D7F29A /* Source.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5724B86B2C3DC9C900D7F29A /* CharKataReaderTests.swift in Sources */,
+				5724B8892C3DD16100D7F29A /* GeneratedMocks+CharKataReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +465,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +528,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,6 +549,7 @@
 		};
 		5724B87B2C3DC9C900D7F29A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20E3F48FBFD9C14C4B31310 /* Pods-CharKataReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +579,7 @@
 		};
 		5724B87C2C3DC9C900D7F29A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6226A468E72CB8A588AEDEFE /* Pods-CharKataReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +609,7 @@
 		};
 		5724B87E2C3DC9C900D7F29A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC348D6195364001C8AC2CF /* Pods-CharKataReader-CharKataReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +630,7 @@
 		};
 		5724B87F2C3DC9C900D7F29A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6FDCA23F44C6C8B895F1F7 /* Pods-CharKataReader-CharKataReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

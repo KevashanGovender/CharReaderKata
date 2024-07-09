@@ -1,0 +1,6 @@
+framework module Pods_CharKataReader_CharKataReaderTests {
+  umbrella header "Pods-CharKataReader-CharKataReaderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
